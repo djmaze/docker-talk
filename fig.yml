@@ -1,0 +1,9 @@
+revealjs:
+  build: .
+  ports:
+    - 8000:8000
+  volumes:
+    - .:/revealjs/md
+    - images:/revealjs/images
+    - css/custom.css:/revealjs/css/custom.css
+    - index.html:/revealjs/index.html

@@ -1,0 +1,15 @@
+.reveal .slides {
+  top: 40%;
+}
+
+.reveal pre code {
+  max-height: none;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  margin-top: 30px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
